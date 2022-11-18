@@ -1,0 +1,187 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPEm3NrYiEavGWBBpV/2lJ1",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Eldar-creator/hackerrank/blob/main/Eldar\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 356
+        },
+        "id": "kN3opVVzXZFA",
+        "outputId": "b9e7d965-acbd-447c-996f-fb2e65985230"
+      },
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyError\u001b[0m                                  Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-1-55c4fc589a27>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m     18\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     19\u001b[0m \u001b[0;32mif\u001b[0m \u001b[0m__name__\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m'__main__'\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 20\u001b[0;31m     \u001b[0mfptr\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0menviron\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'OUTPUT_PATH'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'w'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     21\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     22\u001b[0m     \u001b[0mt\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mstrip\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.7/os.py\u001b[0m in \u001b[0;36m__getitem__\u001b[0;34m(self, key)\u001b[0m\n\u001b[1;32m    679\u001b[0m         \u001b[0;32mexcept\u001b[0m \u001b[0mKeyError\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    680\u001b[0m             \u001b[0;31m# raise KeyError with the original key value\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 681\u001b[0;31m             \u001b[0;32mraise\u001b[0m \u001b[0mKeyError\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkey\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    682\u001b[0m         \u001b[0;32mreturn\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdecodevalue\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    683\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyError\u001b[0m: 'OUTPUT_PATH'"
+          ]
+        }
+      ],
+      "source": [
+        "import math\n",
+        "import os\n",
+        "import random\n",
+        "import re\n",
+        "import sys\n",
+        "\n",
+        "#\n",
+        "# Complete the 'solve' function below.\n",
+        "#\n",
+        "# The function is expected to return a STRING.\n",
+        "# The function accepts INTEGER n as parameter.\n",
+        "#\n",
+        "\n",
+        "def solve(n):\n",
+        "    for i in range(1, 10**5):\n",
+        "        x = bin(i)[2:].replace(\"1\", \"9\")   \n",
+        "        if int(x)%n==0: return x\n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        "    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n",
+        "\n",
+        "    t = int(input().strip())\n",
+        "\n",
+        "    for t_itr in range(t):\n",
+        "        n = int(input().strip())\n",
+        "\n",
+        "        result = solve(n)\n",
+        "\n",
+        "        fptr.write(result + '\\n')\n",
+        "\n",
+        "    fptr.close()\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#!/bin/python3\n",
+        "\n",
+        "import math\n",
+        "import os\n",
+        "import random\n",
+        "import re\n",
+        "import sys\n",
+        "\n",
+        "#\n",
+        "# Complete the 'solve' function below.\n",
+        "#\n",
+        "# The function is expected to return a STRING.\n",
+        "# The function accepts following parameters:\n",
+        "#  1. INTEGER a\n",
+        "#  2. INTEGER b\n",
+        "#  3. INTEGER c\n",
+        "#\n",
+        "\n",
+        "def solve(a, b, c):\n",
+        "    from math import gcd\n",
+        "    if c > max(a,b):\n",
+        "        return \"NO\"\n",
+        "    elif not c % gcd(a,b):\n",
+        "        return \"YES\"\n",
+        "    else:\n",
+        "        return \"NO\"\n",
+        "\n",
+        "if __name__ == '__main__':\n",
+        "    fptr = open(os.environ['OUTPUT_PATH'], 'w')\n",
+        "\n",
+        "    t = int(input().strip())\n",
+        "\n",
+        "    for t_itr in range(t):\n",
+        "        first_multiple_input = input().rstrip().split()\n",
+        "\n",
+        "        a = int(first_multiple_input[0])\n",
+        "\n",
+        "        b = int(first_multiple_input[1])\n",
+        "\n",
+        "        c = int(first_multiple_input[2])\n",
+        "\n",
+        "        result = solve(a, b, c)\n",
+        "\n",
+        "        fptr.write(result + '\\n')\n",
+        "\n",
+        "    fptr.close()\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 356
+        },
+        "id": "6mvhUlzZXth3",
+        "outputId": "ec1d91ee-9d75-432f-aa8c-748679dd8f96"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "KeyError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mKeyError\u001b[0m                                  Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-2-e83701ea576e>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m\u001b[0m\n\u001b[1;32m     27\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     28\u001b[0m \u001b[0;32mif\u001b[0m \u001b[0m__name__\u001b[0m \u001b[0;34m==\u001b[0m \u001b[0;34m'__main__'\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m---> 29\u001b[0;31m     \u001b[0mfptr\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mopen\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mos\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0menviron\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;34m'OUTPUT_PATH'\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;34m'w'\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m     30\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m     31\u001b[0m     \u001b[0mt\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mint\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0minput\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mstrip\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;32m/usr/lib/python3.7/os.py\u001b[0m in \u001b[0;36m__getitem__\u001b[0;34m(self, key)\u001b[0m\n\u001b[1;32m    679\u001b[0m         \u001b[0;32mexcept\u001b[0m \u001b[0mKeyError\u001b[0m\u001b[0;34m:\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    680\u001b[0m             \u001b[0;31m# raise KeyError with the original key value\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m--> 681\u001b[0;31m             \u001b[0;32mraise\u001b[0m \u001b[0mKeyError\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mkey\u001b[0m\u001b[0;34m)\u001b[0m \u001b[0;32mfrom\u001b[0m \u001b[0;32mNone\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m    682\u001b[0m         \u001b[0;32mreturn\u001b[0m \u001b[0mself\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mdecodevalue\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mvalue\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m    683\u001b[0m \u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mKeyError\u001b[0m: 'OUTPUT_PATH'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "N, L = int(input()), [int(n) for n in input().split()]\n",
+        "while len(L) > 1:\n",
+        "    L[0] += L[1] + L[0] * L[1]\n",
+        "    L.pop(1)\n",
+        "print(L[0] % 1000000007)\n"
+      ],
+      "metadata": {
+        "id": "pkd6k7pYYEt6"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "P3piIgBJYmWg"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
